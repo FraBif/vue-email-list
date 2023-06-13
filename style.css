@@ -1,0 +1,10 @@
+.container{
+    margin: 0 auto;
+    background-color: green;
+    text-align: center;
+    width: 50%;
+}
+
+header{
+    text-align: center;
+}
