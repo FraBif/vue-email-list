@@ -8,23 +8,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"></script>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-
     <header>
         <h1>
             Email list
          </h1>
     </header>
-
-
     <div id="app" class="container">
          <ul>
-            <li>
-
+            <li v-for="(generatedMail, i) in generatedMailsList">
+                {{generatedMailsList[i]}}
             </li>
          </ul>
     </div>
-
     <script src="script.js"></script>
 </body>
 </html>
